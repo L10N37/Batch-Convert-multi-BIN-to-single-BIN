@@ -20,12 +20,12 @@ REM					I'd suggest a file manager like 'Total Commander'
 REM                 Configuration Options->Quick Search->Letters with Search Dialogue (enable this)
 
 REM					search for ' *track '
-REM											CTRL+A to select all multibins, hold right click, cut, paste into a new folder in a new subdir in the same folder
+REM										CTRL+A to select all multibins, hold right click, cut, paste into a new subdir in the same folder
 REM
-REM							Select ALL cue files, paste them in there as well - the batch will skip the cue files associated with single bin files that are missing
+REM							    Select ALL cue files, paste them in there as well - the batch will skip the cue files associated with single bin files that are missing
 REM																				and convert all multibin files, leaving a single bin equivelant in your 'destpath' dir
 
-REM                                                                                        after this, clean up time (delete multibin tracks) and move everything back to
+REM     after this, clean up time (delete multibin tracks) and move everything back to
 REM																							a single folder for conversion to .VCD
 
 
