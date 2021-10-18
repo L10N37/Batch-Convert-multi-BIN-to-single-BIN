@@ -9,7 +9,7 @@
 
 REM VajskiDs 18/10/2021: 
 REM 				Please note I have an actual hard drive that I've allocated the drive letter 'x' to.
-REM				    the workpath needs to have the same format as below, i.e. I've created a folder on the
+REM				 the workpath needs to have the same format as below, i.e. I've created a folder on the
 REM					root of my 'X' drive called temp ("X:\temp\") to avoid wasting writes to my OS's SSD.
 
 REM					If you have a folder full of PSX titles *including* ones that are already single BIN
@@ -17,16 +17,16 @@ REM					you don't want to run this tool UNTIL separating them, as it will needle
 REM					the already single BIN files into CHD and back, thus achieving nothing ....but wasting time.
 
 REM					I'd suggest a file manager like 'Total Commander'
-REM                 Configuration Options->Quick Search->Letters with Search Dialogue (enable this)
+REM     Configuration Options->Quick Search->Letters with Search Dialogue (enable this)
 
 REM					search for ' *track '
-REM										CTRL+A to select all multibins, hold right click, cut, paste into a new subdir in the same folder
+REM					CTRL+A to select all multibins, hold right click, cut, paste into a new subdir in the same folder
 REM
-REM							    Select ALL cue files, paste them in there as well - the batch will skip the cue files associated with single bin files that are missing
-REM																				and convert all multibin files, leaving a single bin equivelant in your 'destpath' dir
+REM					Select ALL cue files, paste them in there as well - the batch will skip the cue files associated with single bin files that are missing
+REM					and convert all multibin files, leaving a single bin equivelant in your 'destpath' dir
 
 REM     after this, clean up time (delete multibin tracks) and move everything back to
-REM																							a single folder for conversion to .VCD
+REM					a single folder for conversion to .VCD
 
 
 @REM Switch off unneccessary output
