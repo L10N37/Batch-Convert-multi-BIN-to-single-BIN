@@ -27,6 +27,7 @@ REM					and convert all multibin files into a single CHD in the TEMP folder.
 
 REM     after this, run the 'convert.bat' from inside the 'temp' folder, don't forget CHDMAN.exe needs to be in there too.
 REM     once complete you have all the previously multibin games as single bins with new cue files in the temp folder.
+REM     DELETE all old multibin files, paste your new ones in and overwrite the old cue files with the new ones.
 
 
 
