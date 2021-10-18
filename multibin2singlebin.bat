@@ -59,7 +59,7 @@ REM This is a safety catch to make sure, you edit the file, before running it.
 
 REM Put a rem-command before the line below to unlock the script.
 
-GOTO idiotfilter
+REM GOTO idiotfilter
 
 REM Here we start the loop: For every cue-file in %sourcepath% and its subdirectories execute the commands inside the bracket
 
@@ -88,11 +88,13 @@ ECHO ### Converting chd to %%~nR.bin ###
 
 REM Create the single-bin image, including a cue-file, overwrite existing files.
 
-%sourcepath%\chdman.exe extractcd -i "%workpath%\%%~nR.chd" -o "%destpath%\%%~nR.cue" -ob "%destpath%\%%~nR.bin" -f
+REM vajskids %sourcepath%\chdman.exe extractcd -i "%workpath%\%%~nR.chd" -o "%destpath%\%%~nR.cue" -ob "%destpath%\%%~nR.bin" -f
+
+REM using a separate batch for conversion to single bin using: for /r %%i in (*.chd) do chdman extractcd -i "%%i" -o "%%~ni.cue" -ob "%%~ni.bin"
 
 REM Delete the chd-file. We no longer need it and it's always good to clean up after yourself.
 
-DEL "%workpath%\%%~nR.chd"
+REM vajskids DEL "%workpath%\%%~nR.chd"
 
 REM Print an empty line 
 
