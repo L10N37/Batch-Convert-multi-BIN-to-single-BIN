@@ -23,10 +23,12 @@ REM					search for ' *track '
 REM					CTRL+A to select all multibins, hold right click, cut, paste into a new subdir in the same folder
 REM
 REM					Select ALL cue files, paste them in there as well - the batch will skip the cue files associated with single bin files that are missing
-REM					and convert all multibin files, leaving a single bin equivelant in your 'destpath' dir
+REM					and convert all multibin files into a single CHD in the TEMP folder.
 
-REM     after this, clean up time (delete multibin tracks) and move everything back to
-REM					a single folder for conversion to .VCD
+REM     after this, run the 'convert.bat' from inside the 'temp' folder, don't forget CHDMAN.exe needs to be in there too.
+REM     once complete you have all the previously multibin games as single bins with new cue files in the temp folder.
+
+
 
 
 @REM Switch off unneccessary output
