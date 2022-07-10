@@ -18,3 +18,10 @@ line for CHD to BIN conversion, it wouldn't do the conversion, then it was delet
 I've edited out the conversion, and the deletion lines from the batch. You now run a new batch file from inside the 'temp' folder once they've all 
 being converted to '.chd' files. This will batch convert everything in the folder its run from into single bin/ cue files. Don't forget to put CHDMAN.exe
 in the CHD 'temp' folder along with the batch file.
+
+
+Update: 
+
+https://forum.recalbox.com/topic/25978/how-to-portable-bat-to-batch-convert-multiple-bin-images-to-single-bin-cue-psx-ps1
+
+Someone found this repository and improved it! Link above :D
